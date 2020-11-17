@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="contact-container">
+    <div class="page-title">CONTACT US</div>
+    <div class="contact-info-container">
+      <div class="col-md-4 get-in-touch">
+        <div class="get-in-touch-title">Get in touch</div>
+        <div class="get-in-touch-detail">
+          <strong><label>Call:</label> </strong>
+          <label class="ml-4">+44 1743 235570</label>
+        </div>
+        <div class="get-in-touch-detail">
+          <strong><label>Email:</label></strong>
+          <label class="ml-4">wolfsofmarkting@sl.com</label>
+        </div>
+        <div class="get-in-touch-detail">
+          <strong> <label>Visit:</label> </strong>
+          <label class="ml-4">Park House, in 553</label>
+        </div>
+        <div class="get-in-touch-detail">
+          <strong><label>Social:</label></strong>
+          <label class="ml-4 mt-4">
+            <i class="fa fa-twitter" aria-hidden="true"
+              ><a class="p-2" routerLink="home" routerLinkActive="active"></a
+            ></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"
+              ><a class="p-2" routerLink="home" routerLinkActive="active"></a
+            ></i>
+            <i class="fa fa-paper-plane" aria-hidden="true"
+              ><a class="p-2" routerLink="home" routerLinkActive="active"></a
+            ></i>
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4 contact-form">
+        <form #f="ngForm" (ngSubmit)="onSubmitContactInfo()">
+          <p>
+            <input type="text" class="contact-form-input" name="fullName" [(ngModel)]="contactInfo.fullName" placeholder="Full Name" required />
+          </p>
+          <p>
+            <input type="text" class="contact-form-input" name="phone" [(ngModel)]="contactInfo.phone" placeholder="Phone" required />
+          </p>
+          <p>
+            <input type="text" class="contact-form-input"  name="email" [(ngModel)]="contactInfo.email" required placeholder="Email" />
+          </p>
+          <p>
+            <textarea class="contact-form-input" name="message" [(ngModel)]="contactInfo.message" placeholder="Message" required></textarea>
+          </p>
+
+          <p class="contact-form-btn-container">
+            <button class="btn contact-form-btn" type="submit" [disabled]="!f.valid">SEND</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-container">
+    <img class="img-fluid" src="/assets/images/bgpotrfolio.png">
+    <div class="mb-5">
+      <p class="portfolio-text-bottom">Blockchain Cryptocurrency</p>
+     </div>
+  </div>
+</div>

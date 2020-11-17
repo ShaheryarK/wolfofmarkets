@@ -1,0 +1,72 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin: 60px;
+  padding: 10px 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  border-image-slice: 1;
+  font-size: 21px;
+  font-weight: 900;
+  align-self: center;
+}
+
+.contact-info-container{
+  display: flex;
+  justify-content: center;
+}
+.get-in-touch-title{
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+.get-in-touch-detail{
+  font-size: 18px;
+}
+.contact-form{
+margin-top: 75px;
+}
+.contact-form-input{
+    width: 100%;
+    background-color: #303030;
+    border: none;
+}
+
+.contact-form-btn-container{
+  text-align: center;
+  margin-top:20px;
+}
+.contact-form-btn{
+  color: inherit;
+  border: 2px solid;
+  padding: 5px 28px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bg-image-container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio-text-bottom{
+  font-size: 23px;
+  font-weight: 900;
+}
+.portfolio-container{
+  text-align: center;
+  margin-top: 150px;
+}

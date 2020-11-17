@@ -1,0 +1,33 @@
+.footer-background{
+background-color: #1d1d1d;
+height: 445px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-container{
+  display:flex;
+  justify-content: center;
+}
+
+.footer-social-links{
+  font-size: 34px;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.footer-links{
+  line-height: 40px;
+  font-size: 19px;
+  font-weight: 900;
+  color: #4e4e4e;
+}
+
+.footer-top-border {
+  width: 100%;
+  height: 5px;
+  z-index: 114;
+  background: url("/assets/images/gold-border.png")
+}
+
+

@@ -1,0 +1,126 @@
+.intro-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1250px;
+}
+
+.intro-featured{
+padding: 3rem 1.5rem;
+background-image: url("/assets/images/featured-background-new.png");
+background-repeat: no-repeat;
+background-position: 0 90px;
+height: 1860px;
+}
+
+.featured-text{
+  font-size: 19px;
+}
+.intro-featured-text{
+  font-size: 45px;
+  font-weight: bolder;
+  color: black;
+}
+.intro-featured-text-container{
+  margin-top: 800px;
+}
+.intro-featured-btn{
+  color:#010101;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  border: 3px solid;
+  padding: 8px 35px;
+  margin-top: 15px;
+}
+
+.videoWrapper-container {
+  margin-top: 85px;
+}
+.videoWrapper{
+  width:800px;
+  height: 522px;
+}
+
+@media (max-width: 750px) {
+  .videoWrapper-container {
+    margin-top: 50px;
+  }
+  .videoWrapper { width: 100%; height: 250px;} /* On small screens, show one logo per row */
+}
+
+
+.featured-technology-container{
+  padding-bottom: 160px;
+}
+.text-container-right{
+  text-align: right;
+  width: 490px;
+  margin-left: auto;
+}
+.text-container-left{
+  text-align: left;
+  width: 490px;
+  margin-right: auto;
+}
+
+@media (max-width: 450px) {
+  .text-container-right{
+    text-align: right;
+    width: 350px;
+    margin-left: auto;
+  }
+  .text-container-left{
+    text-align: left;
+    width: 350px;
+    margin-right: auto;
+  }
+}
+.featured-header-container-right{
+  width: 200px;
+  margin-left: auto;
+}
+.featured-header-container-left{
+  width: 200px;
+  margin-right: auto;
+}
+
+.featured-icon{
+  margin-bottom: 35px;
+  text-align: center;
+}
+.featured-header{
+  font-size: 22px;
+}
+.featured-text-description{
+  font-size: 12px;
+}
+
+.portfolio-text{
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.bg-image-container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio-text-bottom{
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.portfolio-text-bottom em{
+  color:#b69549;
+  font-style: inherit;
+}
+.portfolio-text-small{
+  font-size:14px;
+  line-height: 0px;
+}
+.portfolio-container{
+  max-width: 880px;
+  align-self: center;
+}

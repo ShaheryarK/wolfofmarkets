@@ -1,0 +1,57 @@
+.header-link{
+  margin-right: 20px;
+  font-size: 19px;
+}
+
+a {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+
+
+.header-container{
+  min-height: 150px;
+  text-align: center;
+  max-width: 1450px;
+}
+.header-bottom-border {
+  width: 100%;
+  height: 7px;
+  z-index: 114;
+  background: url("/assets/images/gold-border.png")
+}
+
+.header-navbar{
+  line-height: 100px;
+}
+.header-navbar a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+ }
+
+.header-signup-btn{
+  width: 93px;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+.signup-btn-container{
+line-height: 100px;
+}
+.header-social-icons{
+  line-height: 100px;
+  font-size: 24px;
+  color: #6f6f6f;
+}
+
+@media (max-width: 500px) {
+  .header-navbar a { width: 50%; } /* On small screens, show one logo per row */
+}

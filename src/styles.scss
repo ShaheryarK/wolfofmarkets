@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+  color: #dddddd;
+  background-color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+a { color: inherit; }
+a:hover{
+  color:inherit;
+}
