@@ -27,6 +27,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .contact-info-container{
+    display: block;
+  }
+}
 .get-in-touch-title{
   font-size: 26px;
   font-weight: 900;
@@ -55,6 +61,11 @@ margin-top: 75px;
   padding: 5px 28px;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
+}
+.contact-form-btn:hover{
+  color: black;
+  background-color: white;
 }
 
 .bg-image-container{

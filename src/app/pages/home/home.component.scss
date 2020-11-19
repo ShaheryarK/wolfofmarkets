@@ -14,6 +14,12 @@ background-position: 0 90px;
 height: 1860px;
 }
 
+@media (max-width: 500px) {
+  .intro-featured{
+    background-size: 450px 1930px;
+  }
+}
+
 .featured-text{
   font-size: 19px;
 }
@@ -43,11 +49,11 @@ height: 1860px;
   height: 522px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .videoWrapper-container {
     margin-top: 50px;
   }
-  .videoWrapper { width: 100%; height: 250px;} /* On small screens, show one logo per row */
+  .videoWrapper { width: 100%; height: 350px;} /* On small screens, show one logo per row */
 }
 
 
@@ -56,24 +62,24 @@ height: 1860px;
 }
 .text-container-right{
   text-align: right;
-  width: 490px;
+  max-width: 490px;
   margin-left: auto;
 }
 .text-container-left{
   text-align: left;
-  width: 490px;
+  max-width: 490px;
   margin-right: auto;
 }
 
 @media (max-width: 450px) {
   .text-container-right{
     text-align: right;
-    width: 350px;
+    max-width: 350px;
     margin-left: auto;
   }
   .text-container-left{
     text-align: left;
-    width: 350px;
+    max-width: 350px;
     margin-right: auto;
   }
 }
