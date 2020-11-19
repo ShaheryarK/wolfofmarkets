@@ -1,0 +1,175 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-info-title {
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  padding: 10px 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  border-image-slice: 1;
+  font-size: 21px;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.page-title {
+  text-transform: uppercase;
+  margin: 60px;
+  padding: 10px 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  border-image-slice: 1;
+  font-size: 21px;
+  font-weight: 900;
+  align-self: center;
+}
+.about-info-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  .about-info-container{
+    display: block;
+  }
+}
+.get-in-touch-detail{
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.about-img-container{
+margin-top: 75px;
+}
+
+.about-btn-container{
+  margin-top:20px;
+}
+.about-detail-btn{
+  color: inherit;
+  border: 2px solid;
+  padding: 10px 32px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about-detail-btn:hover{
+  color: black;
+  background-color: white;
+}
+
+.service-details-container{
+text-align: center;
+background-color: white;
+color: black;
+height: 590px;
+margin: 25px;
+border: 2px solid;
+border-radius: 20px;
+}
+
+.service-detail-text{
+  margin:25px;
+}
+.service-top-section{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.service-detail-image{
+  margin-bottom: 20px;
+  height: 90px;
+}
+
+.service-detail-title{
+  font-size: 30PX;
+  font-weight: bold;
+}
+
+.golden-border{
+  background-image: linear-gradient(to right,#ddb152,#b17b31, #d9ac4f, #fcf6ba, #b38728);
+    height: 20px;
+    border-radius: 20px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-detail-description{
+  margin: 60px 20px 40px 20px;
+}
+
+.readmore-btn-container{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.readmore-btn{
+  color: white;
+  border: 1px solid;
+  padding: 16px 42px;
+  font-size: 12px;
+  background-color: black;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.team-logo-container{
+  align-self: center;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.team-detail-container{
+text-align: center;
+margin:50px;
+}
+.team-member-image-container{
+  margin-bottom: 20px;
+  height: 160px;
+}
+.team-member-image{
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.golden-border-image{
+  background-image: linear-gradient(to right, #ddb152, #b17b31, #d9ac4f, #fcf6ba, #b38728);
+    height: 3px;
+    border-radius: 20px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-title{
+  font-size: 25px;
+  line-height: 10px;
+}
