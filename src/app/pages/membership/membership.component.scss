@@ -1,0 +1,137 @@
+.membership-text{
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.membership-top-text{
+  color: #9d7b41;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.premium-membership-image{
+    max-width: 125px;
+    position: absolute;
+    left: 38.5px;
+}
+.service-details-container{
+  text-align: center;
+  background-color: white;
+  color: black;
+  height: 450px;
+  margin: 25px;
+  border-bottom: 30px solid;
+  border-image: linear-gradient(to right, #ddb152, #b17b31, #d9ac4f, #fcf6ba, #b38728);
+  border-image-slice: 1;
+  }
+
+  .buy-plan-btn {
+    text-transform: uppercase;
+    padding: 6px 35px;
+    color: #c3a151;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    border-image-slice: 1;
+    font-size: 18px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  .membership-price{
+    color: #9b7738;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .membership-price em{
+    font-size: 35px;
+    font-style: inherit;
+  }
+  .membership-benefits{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .benefit-item{
+    margin-bottom: 25px;
+    display: flex;
+  }
+  .benefit-icon{
+    max-height: 30px;
+    margin-right: 10px;
+  }
+
+  .contact-info-container{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contact-info-heading{
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .contact-form-btn{
+    color: white;
+    border: 2px solid;
+    padding: 10px 28px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-form-btn:hover{
+    color: black;
+    background-color: white;
+  }
+  .service-detail-text{
+    margin:25px;
+  }
+
+  .service-detail-image{
+    margin-bottom: 15px;
+  }
+
+  .service-detail-title{
+    font-size: 50PX;
+    font-weight: bolder;
+    color: #4d4d4d;
+    line-height: 25px;
+  }
+  .service-seconday-title{
+    font-size: 35PX;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+  }
+
+  .golden-border-mini{
+    background-image: linear-gradient(to right,#ddb152,#b17b31, #d9ac4f, #fcf6ba, #b38728);
+      height: 4px;
+      width: 100%;
+  }
+
+  .service-detail-description{
+    margin: 60px 20px 40px 20px;
+  }
+
+  .readmore-btn-container{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .readmore-btn{
+    color: white;
+    border: 1px solid;
+    padding: 16px 42px;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
