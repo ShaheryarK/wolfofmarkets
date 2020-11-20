@@ -7,7 +7,7 @@
 }
 
 .intro-featured{
-  padding: 8rem 1.5rem;
+  padding: 8rem 0;
   background-image: url(/assets/images/main-background.png);
   background-repeat: no-repeat;
   background-position: 0px 230px;
@@ -41,7 +41,7 @@
   font-size: 45px;
   font-weight: bolder;
   color: black;
-  padding-top: 175px;
+  padding-top: 230px;
 }
 .intro-featured-text-container{
   background: url("/assets/images/background-discover.png") center 0 no-repeat;
@@ -115,6 +115,8 @@
 
 .featured-technology-container{
   padding-bottom: 160px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .text-container-right{
   text-align: right;
