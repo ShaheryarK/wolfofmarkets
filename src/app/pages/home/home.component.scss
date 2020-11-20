@@ -80,6 +80,9 @@
   .intro-featured{
     background-position: 0px 60px;
   }
+  .intro-featured-text{
+    font-size: 35px;
+  }
   .featured-text{
     margin-bottom: 0px;
   }
@@ -88,11 +91,13 @@
       min-height: 8rem;
   }
   .featured-screen-main{
-    max-width: 80%;
+    max-width: 93%;
+    left: -20px;
   }
   .featured-screen-secondary{
-    top: 7rem;
-    max-width: 70%;
+    top: 8rem;
+    max-width: 80%;
+    right: -20px;
   }
   .videoWrapper{
     height: auto;
