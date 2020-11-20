@@ -1,1 +1,299 @@
-<p>news works!</p>
+<div class="container">
+  <ngb-carousel #carousel [showNavigationArrows]="false" [showNavigationIndicators]="false">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="/assets/images/slider-img1.png" alt="Angular Carousel 1">
+      </div>
+      <div class="slider-text-container">
+        <label class="post-date">SEPTEMBER 27, 2020 </label>
+        <h1 class="silder-text">3 reasons why Bitcoin price suddenly
+          dropping below $13,000 isn't bearish</h1>
+          <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="/assets/images/slider-img2.jpg" alt="Angular Carousel 2">
+      </div>
+      <div class="slider-text-container">
+        <label class="post-date">SEPTEMBER 27, 2020 </label>
+        <h1 class="silder-text">Title Goes Here</h1>
+          <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <div class="arrow-container">
+    <button (click)="getToPrev()" class="arrow-btn"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </button>
+    <button (click)="goToNext()" class="arrow-btn"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="new-header-container">
+    <h3>Latest By Category</h3>
+  </div>
+  <div class="row">
+    <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+      <div class="post-container">
+        <div class="picsum-img-wrapper">
+          <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+          <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+          <div class="post-text-container">
+            <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+        </div>
+        </div>
+
+        <div class="post-description-container">
+          <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+          <label class="post-date">By admin / September 5, 2013 </label>
+          <p>
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+      <div class="post-container">
+        <div class="picsum-img-wrapper">
+          <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+          <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+          <div class="post-text-container">
+            <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+        </div>
+        </div>
+
+        <div class="post-description-container">
+          <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+          <label class="post-date">By admin / September 5, 2013 </label>
+          <p>
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+      <div class="post-container">
+        <div class="picsum-img-wrapper">
+          <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+          <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+          <div class="post-text-container">
+            <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+        </div>
+        </div>
+
+        <div class="post-description-container">
+          <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+          <label class="post-date">By admin / September 5, 2013 </label>
+          <p>
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="new-header-container">
+      <h3>Latest By Category</h3>
+    </div>
+
+    <div class="row ml-0 mr-0 mt-4 mb-5 featured-post-container">
+      <div class="col-xl-6 col-md-6 col-sm-12 p-0 main-post-container-border">
+
+        <div class="main-post-container">
+          <div class="picsum-img-wrapper">
+            <img class="img-fluid main-post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+            <img class="img-fluid main-post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+            <div class="main-post-text-container">
+              <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+          </div>
+          </div>
+
+          <div class="main-post-description">
+            <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+            <label class="post-other-info">By admin / September 5, 2013 </label>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-md-6 col-sm-12 p-0">
+        <div class="other-posts">
+          <ul class="list-unstyled text-small">
+            <li class="post-item">
+              <img class="img-fluid post-icon p-1" src="/assets/images/btc-post-image.png">
+              <div>
+                <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+                <label class="post-other-info">By admin / September 5, 2013 </label>
+              </div>
+            </li>
+            <li class="post-item">
+              <img class="img-fluid post-icon p-1" src="/assets/images/btc-post-image.png">
+              <div>
+                <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+                <label class="post-other-info">By admin / September 5, 2013 </label>
+              </div>
+            </li>
+            <li class="post-item">
+              <img class="img-fluid post-icon p-1" src="/assets/images/btc-post-image.png">
+              <div>
+                <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+                <label class="post-other-info">By admin / September 5, 2013 </label>
+              </div>
+            </li>
+            <li class="post-item">
+              <img class="img-fluid post-icon p-1" src="/assets/images/btc-post-image.png">
+              <div>
+                <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+                <label class="post-other-info">By admin / September 5, 2013 </label>
+              </div>
+            </li>
+            <li class="post-item">
+              <img class="img-fluid post-icon p-1" src="/assets/images/btc-post-image.png">
+              <div>
+                <h3 class="post-heading">Lorep imsump lorepm isum </h3>
+                <label class="post-other-info">By admin / September 5, 2013 </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div class="new-header-container">
+        <h3>Latest By Category</h3>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+          <div class="post-container">
+            <div class="picsum-img-wrapper">
+              <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+              <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+              <div class="post-text-container">
+                <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+            </div>
+            </div>
+
+            <div class="post-description-container">
+              <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+              <label class="post-date">By admin / September 5, 2013 </label>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+          <div class="post-container">
+            <div class="picsum-img-wrapper">
+              <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+              <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+              <div class="post-text-container">
+                <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+            </div>
+            </div>
+
+            <div class="post-description-container">
+              <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+              <label class="post-date">By admin / September 5, 2013 </label>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+          <div class="post-container">
+            <div class="picsum-img-wrapper">
+              <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+              <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+              <div class="post-text-container">
+                <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+            </div>
+            </div>
+
+            <div class="post-description-container">
+              <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+              <label class="post-date">By admin / September 5, 2013 </label>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="new-header-container">
+          <h3>Latest By Category</h3>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+            <div class="post-container">
+              <div class="picsum-img-wrapper">
+                <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+                <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+                <div class="post-text-container">
+                  <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+              </div>
+              </div>
+
+              <div class="post-description-container">
+                <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+                <label class="post-date">By admin / September 5, 2013 </label>
+                <p>
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+            <div class="post-container">
+              <div class="picsum-img-wrapper">
+                <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+                <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+                <div class="post-text-container">
+                  <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+              </div>
+              </div>
+
+              <div class="post-description-container">
+                <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+                <label class="post-date">By admin / September 5, 2013 </label>
+                <p>
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-sm-12" style="padding: 25px;">
+
+            <div class="post-container">
+              <div class="picsum-img-wrapper">
+                <img class="img-fluid post-tag-icon" src="/assets/images/tag-post-icon.png" alt="Angular Carousel 2">
+                <img class="img-fluid post-img" src="/assets/images/btc-post-image.png" alt="Angular Carousel 2">
+                <div class="post-text-container">
+                  <button class="btn contact-form-btn" routerLink="/contact" >READ MORE</button>
+              </div>
+              </div>
+
+              <div class="post-description-container">
+                <h3 class="silder-text">Lorep imsump lorepm isum </h3>
+                <label class="post-date">By admin / September 5, 2013 </label>
+                <p>
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placea...
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+</div>
+
+
